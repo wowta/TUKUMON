@@ -41,6 +41,9 @@ export function renderHome(container, navigate) {
   `;
 
   document.getElementById("btn1").addEventListener("click", () => {
+    navigate("records");
+  });
+  document.getElementById("btn2").addEventListener("click", () => {
     navigate("shop");
   });
 }

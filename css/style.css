@@ -62,23 +62,23 @@ body {
 
 .character-area {
   position: absolute;
-  top: 120px;
+  top: 300px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
 }
 
 .character-area img.character {
-  width: 180px;
+  width: 90px;
 }
 
 /* 吹き出し */
 .balloon {
   position: absolute;
-  top: -60px;
+  top: -170px;
   left: 50%;
   transform: translateX(-50%);
-  width: 220px;
+  width: 300px;
 }
 
 /* ========= 下部UI ========= */
@@ -91,7 +91,7 @@ body {
 }
 
 .bottom-ui img {
-  width: 360px;
+  width: 300px;
 }
 
 /* ========= ボタンエリア ========= */
@@ -101,8 +101,7 @@ body {
   bottom: 30px;
   left: 0;
   right: 0;
-  display: flex;
-  justify-content: space-evenly;
+  text-align: center;
 }
 
 .button-area button {
