@@ -1,0 +1,116 @@
+/* ========= 基本 ========= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: black;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ========= iPhone12キャンバス ========= */
+
+#app {
+  width: 390px;
+  height: 844px;
+  margin: 0 auto;
+  background: lightcyan;
+  overflow: hidden;
+}
+
+@media (max-width: 390px) {
+  #app {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+/* ========= 共通画面 ========= */
+
+.screen {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: lightcyan;
+}
+
+.bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* ========= 上部UI ========= */
+
+.top-ui {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-ui img {
+  width: 70px;
+}
+
+/* ========= 中央キャラクター ========= */
+
+.character-area {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.character-area img.character {
+  width: 90px;
+}
+
+/* 吹き出し */
+.balloon {
+  position: absolute;
+  top: -170px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+}
+
+/* ========= 下部UI ========= */
+
+.bottom-ui {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-ui img {
+  width: 300px;
+}
+
+/* ========= ボタンエリア ========= */
+
+.button-area {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.button-area button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.button-area img {
+  width: 80px;
+}
+
