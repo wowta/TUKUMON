@@ -1,10 +1,28 @@
 export function renderRecords(container, navigate) {
   container.innerHTML = `
     <div class="screen bg-page2">
-      <h1>ページ3</h1>
 
-      <button class="image-button bottom-button" id="toHome">
-        <img src="img/Top-3 2.png" alt="戻る">
+      <!-- 背景 -->
+      <div class="bg">
+        <img src="img/list-2.png" alt="">
+      </div>
+
+      <!-- 上部左右UI -->
+      <div class="top-ui">
+        <img src="img/Top-3 2.png" alt="左上UI">
+        <div class="point">
+        <img src="img/Top-2 2.png" alt="右上UI"></div>
+        <div class="config">
+        <img src="img/Top-10 2.png" alt="右上UI"></div>
+      </div>
+      <div class="records">
+        <img src="img/list-4.png" alt="左上UI">
+        <img src="img/list-3.png" alt="右上UI">
+      </div>
+
+      <!-- 戻るボタン -->
+      <button class="return" id="toHome">
+        <img src="img/list-1.png" alt="戻る">
       </button>
     </div>
   `;

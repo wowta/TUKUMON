@@ -46,7 +46,7 @@ body {
 
 .top-ui {
   position: absolute;
-  top: 20px;
+  top: 10px;
   left: 0;
   right: 0;
   padding: 0 16px;
@@ -56,6 +56,35 @@ body {
 
 .top-ui img {
   width: 70px;
+}
+
+.point{
+    position: relative;
+    top: 30px;
+    left: 35px;
+}
+
+.point img{
+    width: 160px;
+}
+
+.config {
+  position: relative;
+  top: 30px;
+}
+
+.config img {
+  width: 50px;
+}
+
+.records{
+  position: absolute;
+  top: 125px;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* ========= 中央キャラクター ========= */
@@ -92,6 +121,26 @@ body {
 
 .bottom-ui img {
   width: 300px;
+}
+
+.tsukumon-gen {
+  position: relative;
+  text-align: center;
+  top:15px;
+}
+
+.tsukumon-gen img {
+  width: 150px;
+}
+
+.return {
+  position: absolute;
+  bottom: 50px;
+  left: 20%;
+  transform: translateX(-50%);
+  background: none;
+  border: none;
+  width: auto;
 }
 
 /* ========= ボタンエリア ========= */

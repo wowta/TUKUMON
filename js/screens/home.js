@@ -10,7 +10,8 @@ export function renderHome(container, navigate) {
       <!-- 上部左右UI -->
       <div class="top-ui">
         <img src="img/Top-3 2.png" alt="左上UI">
-        <img src="img/Top-10 2.png" alt="右上UI">
+        <div class="config">
+        <img src="img/Top-10 2.png" alt="右上UI"></div>
       </div>
 
       <!-- キャラクター＋吹き出し -->
@@ -21,6 +22,9 @@ export function renderHome(container, navigate) {
 
       <!-- 下部横長UI -->
       <div class="bottom-ui">
+        <div class="tsukumon-gen">
+        <img src="img/Top-9 2.png" alt="下部UI">
+        </div>
         <img src="img/Top-2 2.png" alt="下部UI">
       </div>
 
