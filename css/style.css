@@ -7,7 +7,9 @@
 body {
   margin: 0;
   background: black;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, Hiragino Maru Gothic ProN W4, sans-serif;
+  color: #5d4532f4;
+  font-size: 36px;
 }
 
 /* ========= iPhone12キャンバス ========= */
@@ -87,6 +89,19 @@ body {
   justify-content: space-between;
 }
 
+.level{
+    position: absolute;
+    top: 20px;
+    left: 38px;
+}
+
+.top-point{
+    position: absolute;
+    font-size: 18px;
+    top: 42px;
+    left: 250px;
+}
+
 /* ========= 中央キャラクター ========= */
 
 .character-area {
@@ -141,6 +156,12 @@ body {
   background: none;
   border: none;
   width: auto;
+}
+
+.bottom-point{
+    position: absolute;
+    top: 120px;
+    left: 160px;
 }
 
 /* ========= ボタンエリア ========= */
